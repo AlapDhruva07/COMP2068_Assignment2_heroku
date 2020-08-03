@@ -1,0 +1,2 @@
+D:\Node.JS\COMP2068-Assignment2\COMP2068-Assignment2\obj\Debug\COMP2068-Assignment2.njsproj.CoreCompileInputs.cache
+D:\Node.JS\COMP2068-Assignment2\COMP2068-Assignment2\bin\Microsoft.NodejsTools.WebRole.dll

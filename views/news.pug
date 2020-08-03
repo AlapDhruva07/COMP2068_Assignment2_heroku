@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  if(!user)
+    h1 Please Login first!
+
+  else
+      #article
+          if(mydata && mydata.length)
+             each t in mydata
+                #myarticle
+                    #atitle
+                        h2= t.title
+                        h6= "Author: " + t.author
+                        img.mx-auto.d-block(src=t.urlToImage)
+                        p= t.description
+                        p= "For more Info: " + t.url
+  block content
+  include footer
